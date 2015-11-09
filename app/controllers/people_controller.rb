@@ -1,5 +1,8 @@
 class PeopleController < ApplicationController
   before_action :set_person, only: [:show, :edit, :update, :destroy]
+  
+
+
 
   # GET /people
   # GET /people.json
